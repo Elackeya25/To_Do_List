@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #e2d5de;
+ 
+}
+header{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: .5px;
+  color: rgb(56.05, 107.35, 191.9);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+header div{
+  font-family: "Shadows Into Light", serif;
+  background-color: #fcf2f9;
+  display: inline-block;
+  border: 1px dashed #673AB7;
+  padding: 7px;
+}
+main{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+main .form-section{
+  width: 50%;
+}
+main .form-section input{
+  width: 56%;
+  padding: 15px 10px;
+  border-color: transparent;
+  border-radius: 4px;
+  outline: none;
+
+}
+main form input:hover ,main form input:active ,main form input:focus , main form input:target{
+
+ border: 1px solid  #386bc0;;
+ outline: none;
+}
+main svg {
+  height: 30px;
+  width: 30px;
+  color: #386bc0;
+  margin-left: 10px;
+}
+main form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table-space{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table-space .table-section{
+  width: 40%;
+ /*  background-color: #fcf2f9; */
+ background-color: transparent;
+  padding: 20px 24px;
+  
+}
+input#work {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.form-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.box-inner {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  background-color: #fcf2f9;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+  color: #386bc0;
+}
+@media only screen and (max-width: 768px){
+  .table-space .table-section{
+    width: 100%;
+  }
+  main .form-section {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 992px){
+  .table-space .table-section{
+    width: 80%;
+  }
+  main .form-section {
+    width: 100%;
+}
+}
